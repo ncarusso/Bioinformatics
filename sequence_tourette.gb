@@ -1,0 +1,95 @@
+LOCUS       XM_003914473            1115 bp    mRNA    linear   PRI 29-AUG-2016
+DEFINITION  PREDICTED: Papio anubis Gilles de la Tourette syndrome chromosome
+            region, candidate 1 (non-protein coding) (GTSCR1), mRNA.
+ACCESSION   XM_003914473
+VERSION     XM_003914473.3
+DBLINK      BioProject: PRJNA169345
+KEYWORDS    RefSeq; corrected model.
+SOURCE      Papio anubis (olive baboon)
+  ORGANISM  Papio anubis
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Cercopithecidae; Cercopithecinae; Papio.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_018169.1) annotated using gene prediction method: Gnomon,
+            supported by mRNA evidence.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Aug 29, 2016 this sequence version replaced gi:685604537.
+            
+            ##RefSeq-Attributes-START##
+            frameshifts :: corrected 1 indel
+            ##RefSeq-Attributes-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI
+            Annotation Status           :: Full annotation
+            Annotation Version          :: Papio anubis Annotation Release 102
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 7.1
+            Annotation Method           :: Best-placed RefSeq; Gnomon
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            ##Genome-Annotation-Data-END##
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-595               AHZZ01053070.1     5533-6127           c
+            596-703             AHZZ01053068.1     11345-11452         c
+            704-771             AHZZ01053068.1     11276-11343         c
+            772-1115            AHZZ01053067.1     19238-19581         c
+FEATURES             Location/Qualifiers
+     source          1..1115
+                     /organism="Papio anubis"
+                     /mol_type="mRNA"
+                     /isolate="1X1155"
+                     /db_xref="taxon:9555"
+                     /chromosome="18"
+                     /sex="female"
+                     /country="USA: Southwest National Primate Research Center,
+                     San Antonio"
+     gene            1..1115
+                     /gene="GTSCR1"
+                     /note="The sequence of the model RefSeq transcript was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 1 mRNA, 2 Proteins, and 81% coverage of the
+                     annotated genomic feature by RNAseq alignments"
+                     /db_xref="GeneID:101008007"
+     CDS             494..901
+                     /gene="GTSCR1"
+                     /note="The sequence of the model RefSeq protein was
+                     modified relative to its source genomic sequence to
+                     represent the inferred CDS: deleted 1 base in 1 codon"
+                     /codon_start=1
+                     /product="LOW QUALITY PROTEIN: Gilles de la Tourette
+                     syndrome chromosomal region candidate gene 1 protein"
+                     /protein_id="XP_003914522.1"
+                     /db_xref="GeneID:101008007"
+                     /translation="MQSDIYHPGHSFPSWVLCWVHRCGHEGHLREAAEIRKTHQNGDL
+                     QIRGGRGRRENTEIFQVASVTGREEPSLPAICMFLFLLCIAPIYACVCRIFKIQVRNT
+                     VRNSSSASLAPSISTSEERQIRIERYHYRLYCQ"
+ORIGIN      
+        1 tcttcataaa taacccagtc tcaggcagtt ctttacagca gtgtgaaaat ggactaatac
+       61 gctatcccat ctccatccca ctgccatctt ccctaaagcc ctacagtaga ttgctgttac
+      121 tcttagaatc aagaccagac cgcttttggg gtctacacca ctttctgtgg ttttgtccgc
+      181 agctagttta catcacatgc ccctcctctt cctttctcca tcacatttca catttgccat
+      241 ttactttttt tttttcaacc ttcctttact ttaccctatc atgctccctc acccccataa
+      301 agcttttgta cattctgcgt ctccttcctg gagcatttta catccctctg catctaggtc
+      361 tctgcctgag gtcaggttcc ctaaaaagcc tggtctgagg caatgactaa aaaggctcct
+      421 attttgttta aggaagtgca aactcatggc aagaaggcaa ggaaaacagc ttcggagggg
+      481 aggatgagaa gcaatgcaaa gtgacatata ccatcctggc cacagcttcc caagttgggt
+      541 cctttgctgg gtgcatcgct gtggccatga gggacatctc agagaggctg cagagatcag
+      601 aaaaactcat caaaatggag acctgcaaat aagaggagga agagggagga gagagaacac
+      661 agaaatcttc caagtggctt cagtgacagg aagggaggag ccatcactac ctgccatttg
+      721 catgtttttg ttcctcttgt gtattgctcc tatttatgca tgtgtgtgca ggatcttcaa
+      781 aatccaggta agaaacacag tgaggaactc atccagcgca agcttggccc catccatcag
+      841 taccagtgaa gagagacaaa tcaggataga aagatatcac taccgtctct attgtcagtg
+      901 atattatggg ctaatgaata aaaataactg ctttacagtg ttctacagtg ttctatagca
+      961 atttcatata ctcctttcat tcttgcaatg acccaaattt aagtgtcgtg tttaaaccta
+     1021 agttaggcat acattaatat ctctatttta ctaacaaaaa aatccgaggt taagtgattt
+     1081 atccttggtt gccttcctgt caatggcaga accac
+//
+
